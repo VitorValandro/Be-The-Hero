@@ -14,17 +14,112 @@ The website is made for NGOs, who can register and create their campaigns there.
 
 I learned a lot with this project and the knowledge acquired here was used and improved on all the other upcoming projects that use these technologies.
 
-### Installation
+## 🛠 Built with
 
-Clone this repository and execute:
-```bash 
+- ⚛️ **React Js** — Front-end web
+- ⚛️ **React Native** — Mobile app
+- 💹 **Node Js** — Back-end
+- 🎲 **SQLite** — Database
+
+
+### Requirements
+
+- Git
+- NodeJS
+- Expo
+
+### 💻 Server setup
+
+Clone the repository
+
+```bash
+
+# Clone the repo
+git clone https://github.com/VitorValandro/Be-The-Hero
+```
+
+Go to project's root diretory and run the commands below:
+
+```bash
+
+cd backend
+
+# Install packages
 npm install
 
-or
+# Starts server
+npm start
 
-yarn install
+# Access http://localhost:3333 to see the server running
+
 ```
-After install all the project dependencies execute the back-end and then execute the front-end. This project was not for production, so there is no deployment in heroku, netlify or app stores.
+
+### 🖥 Web setup
+
+First clone the repository if you haven't done it yet:
+
+```bash
+
+# Clone the repo
+git clone https://github.com/VitorValandro/Be-The-Hero
+
+```
+
+Go to project's root diretory and run the commands below:
+
+```bash
+
+cd frontend
+
+# Install dependencies
+npm install
+
+```
+
+After install all packages run the commands below:
+
+```bash
+
+# Starts web app
+npm start
+
+# Access http://localhost:3000 to use the app
+
+```
+
+### 📱 Mobile setup
+
+First clone the repository if you haven't done it yet:
+
+```bash
+
+# Clone the repo
+git clone https://github.com/VitorValandro/Be-The-Hero
+
+```
+
+Go to project's root diretory and run the commands below:
+
+```bash
+
+cd mobile
+
+# Install dependencies
+yarn
+
+After that run the command below:
+
+```bash
+
+# Starts mobile app
+expo start
+
+```
+
+Run it in an emulator or using the [Expo app](https://play.google.com/store/apps/details?id=host.exp.exponent&hl=pt_BR&gl=US) on your smartphone via QR Code.
+
+This project was not for production, so there is no deployment in heroku, netlify or app stores.
+
 
 ###### The designs and arts weren't made by me.
 
